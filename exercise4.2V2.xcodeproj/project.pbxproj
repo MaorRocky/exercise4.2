@@ -13,8 +13,7 @@
 		869A5AC625A59EA500DFC9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869A5AC425A59EA500DFC9BE /* Main.storyboard */; };
 		869A5AC825A59EA800DFC9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869A5AC725A59EA800DFC9BE /* Assets.xcassets */; };
 		869A5ACB25A59EA800DFC9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869A5AC925A59EA800DFC9BE /* LaunchScreen.storyboard */; };
-		869A5AD625A59EA800DFC9BE /* exercise4_2V2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A5AD525A59EA800DFC9BE /* exercise4_2V2Tests.swift */; };
-		869A5AE125A59EA800DFC9BE /* exercise4_2V2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A5AE025A59EA800DFC9BE /* exercise4_2V2UITests.swift */; };
+		869A5AF525A5A1C700DFC9BE /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A5AF425A5A1C700DFC9BE /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +43,8 @@
 		869A5ACA25A59EA800DFC9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		869A5ACC25A59EA800DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869A5AD125A59EA800DFC9BE /* exercise4.2V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercise4.2V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		869A5AD525A59EA800DFC9BE /* exercise4_2V2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise4_2V2Tests.swift; sourceTree = "<group>"; };
-		869A5AD725A59EA800DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869A5ADC25A59EA800DFC9BE /* exercise4.2V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercise4.2V2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		869A5AE025A59EA800DFC9BE /* exercise4_2V2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise4_2V2UITests.swift; sourceTree = "<group>"; };
-		869A5AE225A59EA800DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869A5AF425A5A1C700DFC9BE /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				869A5ABD25A59EA500DFC9BE /* exercise4.2V2 */,
-				869A5AD425A59EA800DFC9BE /* exercise4.2V2Tests */,
-				869A5ADF25A59EA800DFC9BE /* exercise4.2V2UITests */,
 				869A5ABC25A59EA500DFC9BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,26 +100,9 @@
 				869A5AC725A59EA800DFC9BE /* Assets.xcassets */,
 				869A5AC925A59EA800DFC9BE /* LaunchScreen.storyboard */,
 				869A5ACC25A59EA800DFC9BE /* Info.plist */,
+				869A5AF425A5A1C700DFC9BE /* MyCollectionViewCell.swift */,
 			);
 			path = exercise4.2V2;
-			sourceTree = "<group>";
-		};
-		869A5AD425A59EA800DFC9BE /* exercise4.2V2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				869A5AD525A59EA800DFC9BE /* exercise4_2V2Tests.swift */,
-				869A5AD725A59EA800DFC9BE /* Info.plist */,
-			);
-			path = exercise4.2V2Tests;
-			sourceTree = "<group>";
-		};
-		869A5ADF25A59EA800DFC9BE /* exercise4.2V2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				869A5AE025A59EA800DFC9BE /* exercise4_2V2UITests.swift */,
-				869A5AE225A59EA800DFC9BE /* Info.plist */,
-			);
-			path = exercise4.2V2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +237,7 @@
 			files = (
 				869A5AC325A59EA500DFC9BE /* ViewController.swift in Sources */,
 				869A5ABF25A59EA500DFC9BE /* AppDelegate.swift in Sources */,
+				869A5AF525A5A1C700DFC9BE /* MyCollectionViewCell.swift in Sources */,
 				869A5AC125A59EA500DFC9BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				869A5AD625A59EA800DFC9BE /* exercise4_2V2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				869A5AE125A59EA800DFC9BE /* exercise4_2V2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
